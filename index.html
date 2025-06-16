@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Booking</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-100 p-6">
+    <!-- Search Bar -->
+    <div class="text-center mb-8">
+      <input
+        type="text"
+        placeholder="Search Events"
+        class="w-full max-w-md px-4 py-2 border border-gray-400 rounded-md shadow focus:ring-2 focus:ring-blue-400"
+      />
+    </div>
+
+    <!-- Event Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <!-- Event Card 1 -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 1</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/flat-prom-invitation-template_23-2149378652.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">01-Jul-2025</p>
+            <p class="text-sm">Seats Available: 33</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Book Now
+        </button>
+      </div>
+
+      <!-- Event Card 2 -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 2</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/bollywood-party-poster-template-style_23-2148473798.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">20-Feb-2026</p>
+            <p class="text-sm">Seats Available: 23</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Book Now
+        </button>
+      </div>
+
+      <!-- Sold Out Card -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 3</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/welcome-lettering-with-red-carpet-entrance_1262-14717.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">10-Aug-2025</p>
+            <p class="text-sm">Seats Available: 0</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-gray-400 text-white rounded cursor-not-allowed"
+        >
+          Sold Out
+        </button>
+      </div>
+
+      <!-- Event Card 4 -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 4</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/flat-prom-background_23-2149370326.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">4-Sep-2025</p>
+            <p class="text-sm">Seats Available: 15</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Book Now
+        </button>
+      </div>
+
+      <!-- Event Card 5 -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 5</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/colored-graduation-party-poster-with-silhouettes-dancing_23-2147629088.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">23-Jun-2025</p>
+            <p class="text-sm">Seats Available: 21</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Book Now
+        </button>
+      </div>
+
+      <!-- Sold Out Card -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 6</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/modern-event-banner-template-with-degrade-background_1361-2219.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">13-Nov-2025</p>
+            <p class="text-sm">Seats Available: 0</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-gray-400 text-white rounded cursor-not-allowed"
+        >
+          Sold Out
+        </button>
+      </div>
+
+      <!-- Event Card 7 -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 7</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/realistic-festa-junina-vertical-poster-template_52683-62552.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">1-Jun-2025</p>
+            <p class="text-sm">Seats Available: 3</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Book Now
+        </button>
+      </div>
+
+      <!-- Event Card 8 -->
+      <div class="bg-white p-4 rounded shadow text-center">
+        <h2 class="font-bold text-xl mb-3">Event 8</h2>
+        <div class="flex items-center justify-start gap-4 mb-3">
+          <img
+            src="https://img.freepik.com/free-vector/orange-festa-junina-poster-with-fireworks_1017-9060.jpg?ga=GA1.1.534531096.1737550799&semt=ais_hybrid&w=740"
+            alt="Event"
+            class="w-16 h-16 object-cover rounded"
+          />
+          <div class="text-left">
+            <p class="text-sm">18-Jun-2025</p>
+            <p class="text-sm">Seats Available: 79</p>
+          </div>
+        </div>
+        <button
+          class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Book Now
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
